@@ -1,0 +1,41 @@
+.bg-primary {
+  background-color: #282c37!important;
+}
+
+hr.star-light:after {
+  color: #fff;
+  background-color: #282c37;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #282c37;
+}
+
+a:active, a:focus, a:hover {
+  color: #1abc9c;
+}
+
+a:hover {
+  color: #1abc9c;
+  text-decoration: underline;
+}
+
+a {
+  color: #1abc9c;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #282c37;
+}
+
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+  background-color: #3f4e6a!important;
+}
+
+@media (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #282c37);
+  }
+}
+
