@@ -5792,7 +5792,7 @@ svg.icon-feature-large {
 
 @media(max-width:480px) {
     #header .logo .logo-text small,
-    #nav-overlay .logo .logo-text small {
+    #nav-overlay .logo .logo-text small{
         display: none
     }
 }
